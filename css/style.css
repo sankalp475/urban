@@ -104,7 +104,7 @@ button.button2{
 }
 .banner{
     width: 100%;
-    height: 600px;
+    /* height: 600px; */
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
         url("../img/banner.jpg");
     background-repeat: no-repeat;
@@ -112,10 +112,11 @@ button.button2{
     background-size: cover;
 }
 .banner-text{
-    position: relative;
-    top: 220px;
+    /* position: relative;
+    top: 220px; */
     text-align: center;
     color: #ffffff;
+    padding: 160px 45px 160px 30px;
 }
 .banner-text h1{
     font-family: 'Zilla Slab', serif;
@@ -128,7 +129,8 @@ button.button2{
 }
 .about{
     width: 1150px;
-    margin-top: 85px;
+    margin-top: 135px;
+    margin-bottom: 135px;
 }
 .m-left{
     width: 350px;
@@ -168,8 +170,8 @@ img{
     background-color: #3498db;
 }
 .about-p{
-    padding-top: 85px;
-    padding-bottom: 85px;
+    padding-top: 125px;
+    padding-bottom: 125px;
 }
 .post{
    position: relative;
@@ -256,16 +258,16 @@ img{
 }
 .b-1{
     position: relative;
-    left: -300px;
+    left: 90px;
 }
 .b-2{
     position: relative;
-    left: -210px;
+    left: 180px;
 }
 .b-3{
     position: relative;
-    top: -560px;
-    left: 800px;
+    top: 0px;
+    left: 250px;
 }
 
 .b-1 img{
@@ -306,7 +308,7 @@ img{
     margin: 0 auto;
     clear: both;
     position: relative;
-    top: -500px;
+    top:100px;
     left: 120px;
     padding: 30px;
 }
@@ -331,7 +333,7 @@ img{
 .footer-text{
     margin-top: 40px;
     position: relative;
-    left: -20px;
+    left: -70px;
     font-size: 17px;
     color: #bdbdbd;
 }
